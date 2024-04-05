@@ -6,7 +6,7 @@
  Lifelong wealth building financial formulas
 """
 
-def A_calculate_growth_annually(_credit, _frequency, _period, _growth):
+def A_calculate_growth(_credit, _frequency, _period, _growth):
 
     Final_generated_balance = 0
 
@@ -15,4 +15,3 @@ def A_calculate_growth_annually(_credit, _frequency, _period, _growth):
         Final_generated_balance += (Final_generated_balance*_growth)
 
     return round(Final_generated_balance, 3)
-
